@@ -1,0 +1,161 @@
+HTML DOM getelement by I'd
+ The getelement by id() method returns the
+elements that has the id attribute with the 
+Specified value.
+# This method is one of the most common methods
+in the HTML DOM.
+# It is used almost every time want to manipulate.
+# Also get information from this,element on your
+document.
+# Returns null if no elements with specified ID 
+exists.
+# Browser's support chrome,fire fox,opera mini.
+
+Example:
+<!doctype HTML>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>Document</title>
+</head>
+<body>
+     <div id="parent-id">
+          <P>hello world1</p>
+          <P id="test1">hello world2</p>
+          <P>hello world3</P>
+          <P>hello world4</p>
+      </div>
+      <script>
+           var parentDom = document.getelementbyid
+('parent - ID');
+            var test1 = parent Dom.getelementbyid
+//throw error
+//Uncaught type error: parentdom.getelementbyid
+is not a function
+</script>
+</body>
+</html>
+##Elements by tagname:
+<Doctype HTML>
+<html>
+    <head>
+         <title>
+              Element by ID
+         <title>
+     <head>
+     <body>
+          <h2>hello world</h2>
+          <P>the Dom is very useful</p>
+          <script>
+ document.getelementsbyTagName("p");
+          </script>
+      </html>
+##Element by calss:
+<DocType html>
+<html>
+     <head>
+         <title>
+              Element by ID
+         </title>
+     </head>
+     <body>
+         <h2>Hello world</P>
+         <p class="para">the Dom is very useful
+in Javascript</p>
+         <script>
+              document.get elements by class
+Name("para");
+        </script>
+     </body>
+</html>
+
+Arrays:
+Let mix=["Hari",6,"ramu"];
+ console.log(type of(mix[0]));
+ console.log(type of(mix[1]));
+ console.log(type of(mix[2]));
+
+Conditional:
+Let numb = [];
+numb = [1,2,3,2,1,3,1,2,1];
+if (numb[0]==1) {
+    console.log("if block executes,value is 1");
+}
+//if -else block
+if (numb[0]==numb[1]){
+    (numb[0]==numb[1]){
+     console.log ("try check");
+}
+//If elseif else ladder
+if(numb[0]==numb[1]){
+     console.log("("if block executes,v
+alue is 1");
+}else {
+     console.log("everything is incorrect");
+}
+ 
+##Data type:
+Let name = "Siva"; // string
+Let z = 10; //number
+console.log(name);
+console.log(z);
+console.log(type of(name));
+console.log(type of(Z));
+
+forloop
+let p=0;
+for (let p=0; p<10; p++) {
+     console.log("the value is fun");
+     console.log("hii");
+}
+ Object:
+ let Suma={
+     Email:"suma123@gmail.com"
+     Age:95
+     school:"mpc",
+     Class:"10th class",
+     fruits:['apple', 'mango', 'orange',
+'grapes']
+};
+console.log(suma.fruits[0],
+suma.fruits[1];
+console.log(suma.fruits[2];
+console.log(suma.fruits[3];
+console.log(suma.Age);
+console.log(suma.email);
+console.log(suma.class);
+
+Switch:
+let places= "Hindustan";
+Switch (place) {
+         case "Pune":
+         console.log ("I love pune");
+         break;
+       
+         Case "Delhi":
+         console.log ("I love delhi");
+         break;
+         
+         Case "Chennai":
+         console.log ("I love Chennai");
+         break;
+
+         default:
+         console.log("I like other places");
+         break;
+
+Variables:
+let a=700;
+let b=200;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+
+While loop:
+let i = 0;
+while (i < 10) {
+    console.log ("the number is: " + i);
+    i++;
+}
